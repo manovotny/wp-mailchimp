@@ -1,0 +1,18 @@
+{
+  "name": "wp-mailchimp",
+  "version": "0.0.0",
+  "description": "TODO",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/manovotny/wp-mailchimp.git"
+  },
+  "keywords": [
+    "email",
+    "mailchimp",
+    "rss",
+    "wordpress"
+  ],
+  "authors": [
+    { "name": "Michael Novotny", "email": "manovotny@gmail.com"," homepage": "http://manovotny.com" }
+  ]
+}
