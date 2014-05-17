@@ -1,6 +1,6 @@
 <?php
 /**
- * TODO
+ * MailChimp integration for WordPress.
  *
  * @package WP_MailChimp
  * @author Michael Novotny <manovotny@gmail.com>
@@ -11,7 +11,7 @@
  * @wordpress-plugin
  * Plugin Name: WP MailChimp
  * Plugin URI: https://github.com/manovotny/wp-mailchimp
- * Description: TODO
+ * Description: MailChimp integration for WordPress.
  * Version: 0.0.0
  * Author: Michael Novotny
  * Author URI: http://manovotny.com

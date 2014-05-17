@@ -1,4 +1,4 @@
 wp-mailchimp
 ==========
 
-TODO
+MailChimp integration for WordPress.

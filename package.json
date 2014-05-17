@@ -1,7 +1,7 @@
 {
   "name": "wp-mailchimp",
   "version": "0.0.0",
-  "description": "TODO",
+  "description": "MailChimp integration for WordPress.",
   "author": "Michael Novotny <http://manovotny.com/>",
   "repository": {
     "type": "git",

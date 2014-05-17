@@ -1,7 +1,7 @@
 {
   "name": "manovotny/wp-mailchimp",
   "version": "0.0.0",
-  "description": "TODO",
+  "description": "MailChimp integration for WordPress.",
   "type": "library",
   "homepage": "https://github.com/manovotny/wp-mailchimp/",
   "license": "GPL-3.0+"
