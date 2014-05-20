@@ -29,12 +29,12 @@ if ( ! defined( 'WPINC' ) ) {
 
 }
 
-/* Classes
+/* Libraries
 ---------------------------------------------------------------------------------- */
 
-require_once __DIR__ . '/classes/class-wp-mailchimp.php';
+require_once __DIR__ . '/lib/querypath/qp.php';
 
 /* Includes
 ---------------------------------------------------------------------------------- */
 
-require_once __DIR__ . '/inc/email-feed.php';
+require_once __DIR__ . '/inc/feed.php';

@@ -4,5 +4,8 @@
   "description": "MailChimp integration for WordPress.",
   "type": "library",
   "homepage": "https://github.com/manovotny/wp-mailchimp/",
-  "license": "GPL-3.0+"
+  "license": "GPL-3.0+",
+  "require-dev": {
+    "querypath/QueryPath": "3.0.2"
+  }
 }
