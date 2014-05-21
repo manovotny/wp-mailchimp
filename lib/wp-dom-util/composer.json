@@ -1,8 +1,8 @@
 {
-  "name": "manovotny/wp-dom-utl",
-  "version": "0.1.0",
+  "name": "manovotny/wp-dom-util",
+  "version": "0.3.0",
   "description": "A PHP DOM utility for WordPress.",
   "type": "library",
-  "homepage": "https://github.com/manovotny/wp-dom-utl/",
+  "homepage": "https://github.com/manovotny/wp-dom-util/",
   "license": "GPL-3.0+"
 }

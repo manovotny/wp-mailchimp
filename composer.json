@@ -12,6 +12,6 @@
     }
   ],
   "require-dev": {
-    "manovotny/wp-dom-util": "0.1.0"
+    "manovotny/wp-dom-util": "0.3.0"
     }
 }

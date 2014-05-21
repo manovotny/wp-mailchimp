@@ -1,10 +1,10 @@
 {
-  "name": "wp-dom-utl",
-  "version": "0.1.0",
+  "name": "wp-dom-util",
+  "version": "0.3.0",
   "description": "A PHP DOM utility for WordPress.",
   "repository": {
     "type": "git",
-    "url": "git://github.com/manovotny/wp-dom-utl.git"
+    "url": "git://github.com/manovotny/wp-dom-util.git"
   },
   "keywords": [
     "dom",

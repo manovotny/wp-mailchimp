@@ -66,4 +66,18 @@ class WP_DOM_Util {
         return $inner_html;
 
     }
+
+    /**
+     * Gets HTML meta tags based on WordPress settings.
+     *
+     * @return string HTML meta tags based on WordPress settings.
+     */
+    function get_meta() {
+
+        $html_type = get_bloginfo( 'html_type' );
+        $charset = get_bloginfo( 'charset' );
+
+        return '<meta http-equiv="Content-Type" content="' . $html_type . '; charset=' . $charset . '" />';
+
+    }
 }
