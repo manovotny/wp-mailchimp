@@ -7,11 +7,11 @@ module.exports = function (grunt) {
             files: [
                 {
                     expand: true,
-                    cwd: 'vendor/querypath/querypath/src',
+                    cwd: 'vendor/manovotny',
                     src: [
                         '**/*'
                     ],
-                    dest: 'lib/querypath'
+                    dest: 'lib'
                 }
             ]
         }

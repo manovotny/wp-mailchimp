@@ -36,16 +36,22 @@ function wp_mailchimp_feed() {
  */
 function wp_mailchimp_feed_content( $content ) {
 
-    $qp_content = htmlqp( $content );
+    $dom_util = WP_DOM_Util::get_instance();
 
-    $images = $qp_content->find( 'img' );
+    $dom = new DOMDocument();
+    $dom->preserveWhiteSpace = false;
+    $dom->LoadHTML($content);
 
-    foreach ( $images as $image ) {
+    $images = $dom->getElementsByTagName('img');
 
-        $image->attr( 'style', 'max-width: 100%;');
+    foreach ($images as $image) {
+
+        $image->setAttribute( 'style', 'max-width: 100%;' );
 
     }
 
-    return $qp_content->find( 'body' )->innerHTML();
+    $content = $dom_util->get_inner_html($dom->getElementsByTagName('body')->item(0));
+
+    return $content;
 
 }

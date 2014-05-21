@@ -5,7 +5,13 @@
   "type": "library",
   "homepage": "https://github.com/manovotny/wp-mailchimp/",
   "license": "GPL-3.0+",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/manovotny/wp-dom-util"
+    }
+  ],
   "require-dev": {
-    "querypath/QueryPath": "3.0.2"
-  }
+    "manovotny/wp-dom-util": "0.1.0"
+    }
 }
