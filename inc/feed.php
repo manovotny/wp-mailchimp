@@ -40,17 +40,17 @@ function wp_mailchimp_feed_content( $content ) {
 
     $dom = new DOMDocument();
     $dom->preserveWhiteSpace = false;
-    $dom->LoadHTML($content);
+    $dom->LoadHTML( $dom_util->get_meta() . $content );
 
-    $images = $dom->getElementsByTagName('img');
+    $images = $dom->getElementsByTagName( 'img' );
 
-    foreach ($images as $image) {
+    foreach ( $images as $image ) {
 
         $image->setAttribute( 'style', 'max-width: 100%;' );
 
     }
 
-    $content = $dom_util->get_inner_html($dom->getElementsByTagName('body')->item(0));
+    $content = $dom_util->get_inner_html($dom->getElementsByTagName( 'body' )->item( 0 ));
 
     return $content;
 
