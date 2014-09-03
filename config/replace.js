@@ -17,7 +17,7 @@ module.exports = (function () {
             package: 'WP_MailChimp_Feed',
             slug: 'wp-mailchimp-feed',
             url: 'https://github.com/manovotny/wp-mailchimp-feed',
-            version: '0.2.1'
+            version: '1.0.0'
         },
         translations: {
             domain: 'wp-mailchimp-feed',

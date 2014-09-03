@@ -47,7 +47,7 @@ module.exports = (function () {
             slug: 'wp-mailchimp-feed',
             type: 'plugin', // Should be `plugin` or `theme`.
             url: 'https://github.com/manovotny/wp-mailchimp-feed',
-            version: '0.2.1'
+            version: '1.0.0'
         }
     };
 

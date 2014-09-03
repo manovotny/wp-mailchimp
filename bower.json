@@ -1,6 +1,6 @@
 {
   "name": "wp-mailchimp-feed",
-  "version": "0.2.1",
+  "version": "1.0.0",
   "description": "Adds a WordPress feed for MailChimp for better content control.",
   "repository": {
     "type": "git",
