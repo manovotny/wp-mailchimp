@@ -8,13 +8,21 @@
     "url": "https://github.com/manovotny/wp-mailchimp/"
   },
   "devDependencies": {
+    "config": "~0.4.36",
     "grunt": "~0.4.5",
     "grunt-contrib-clean": "~0.5.0",
     "grunt-contrib-copy": "~0.5.0",
     "grunt-contrib-watch": "~0.6.1",
-    "grunt-jslint": "~1.1.8",
-    "grunt-text-replace": "~0.3.11",
-    "load-grunt-tasks": "~0.4.0",
-    "time-grunt": "~0.3.1"
+    "grunt-jslint": "~1.1.12",
+    "grunt-phplint": "0.0.5",
+    "grunt-phpunit": "~0.3.3",
+    "grunt-rename": "~0.1.4",
+    "grunt-shell": "~0.7.0",
+    "grunt-text-replace": "~0.3.12",
+    "grunt-wp-i18n": "~0.4.7",
+    "jshint-stylish": "~0.4.0",
+    "load-grunt-config": "~0.10.0",
+    "time-grunt": "~0.3.2",
+    "uglifyify": "~2.5.0"
   }
 }
