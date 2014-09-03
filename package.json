@@ -1,11 +1,11 @@
 {
-  "name": "wp-mailchimp",
+  "name": "wp-mailchimp-feed",
   "version": "0.2.1",
-  "description": "MailChimp integration for WordPress.",
+  "description": "Adds a WordPress feed for MailChimp for better content control.",
   "author": "Michael Novotny <http://manovotny.com/>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/manovotny/wp-mailchimp/"
+    "url": "https://github.com/manovotny/wp-mailchimp-feed"
   },
   "devDependencies": {
     "config": "~0.4.36",

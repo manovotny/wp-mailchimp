@@ -1,11 +1,11 @@
 <?php
 /**
- * @package WP_MailChimp
+ * @package WP_MailChimp_Feed
  *
  * @wordpress-plugin
- * Plugin Name: WP MailChimp
+ * Plugin Name: WP MailChimp Feed
  * Plugin URI: https://github.com/manovotny/wp-mailchimp-feed
- * Description: MailChimp integration for WordPress.
+ * Description: Adds a WordPress feed for MailChimp for better content control.
  * Version: 0.2.1
  * Author: Michael Novotny
  * Author URI: http://manovotny.com
@@ -13,7 +13,7 @@
  * License URI: http://www.gnu.org/licenses/gpl-3.0.html
  * Domain Path: /lang
  * Text Domain: wp-mailchimp-feed
- * GitHub Plugin URI: https://github.com/manovotny/wp-mailchimp
+ * GitHub Plugin URI: https://github.com/manovotny/wp-mailchimp-feed
  */
 
 /* Access

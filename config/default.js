@@ -39,14 +39,14 @@ module.exports = (function () {
             views: 'views'
         },
         project: {
-            composer: 'manovotny/wp-mailchimp',
-            description: 'MailChimp integration for WordPress.',
-            git: 'git://github.com/manovotny/wp-mailchimp.git',
-            name: 'WP MailChimp',
-            package: 'WP_MailChimp',
-            slug: 'wp-mailchimp',
+            composer: 'manovotny/wp-mailchimp-feed',
+            description: 'Adds a WordPress feed for MailChimp for better content control.',
+            git: 'git://github.com/manovotny/wp-mailchimp-feed.git',
+            name: 'WP MailChimp Feed',
+            package: 'WP_MailChimp_Feed',
+            slug: 'wp-mailchimp-feed',
             type: 'plugin', // Should be `plugin` or `theme`.
-            url: 'https://github.com/manovotny/wp-mailchimp',
+            url: 'https://github.com/manovotny/wp-mailchimp-feed',
             version: '0.2.1'
         }
     };

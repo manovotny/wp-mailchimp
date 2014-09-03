@@ -1,6 +1,6 @@
 <?php
 /**
- * @package WP_MailChimp
+ * @package WP_MailChimp_Feed
  */
 
 class WP_MailChimp_Feed {

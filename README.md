@@ -1,4 +1,4 @@
-wp-mailchimp
+wp-mailchimp-feed
 ==========
 
-MailChimp integration for WordPress.
+Adds a WordPress feed for MailChimp for better content control.

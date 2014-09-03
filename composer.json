@@ -1,9 +1,9 @@
 {
-  "name": "manovotny/wp-mailchimp",
+  "name": "manovotny/wp-mailchimp-feed",
   "version": "0.2.1",
-  "description": "MailChimp integration for WordPress.",
+  "description": "Adds a WordPress feed for MailChimp for better content control.",
   "type": "library",
-  "homepage": "https://github.com/manovotny/wp-mailchimp/",
+  "homepage": "https://github.com/manovotny/wp-mailchimp-feed",
   "license": "GPL-3.0+",
   "require-dev": {
     "manovotny/wp-dom-util": "0.3.0",
