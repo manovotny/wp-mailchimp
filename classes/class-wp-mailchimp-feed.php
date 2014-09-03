@@ -43,7 +43,7 @@ class WP_MailChimp_Feed {
      */
     public function __construct() {
 
-        add_action( 'init', array( $this, 'initialize_mailchimp_feed' ) );
+        add_action( 'init', array( $this, 'add_feed' ) );
 
     }
 
@@ -51,22 +51,22 @@ class WP_MailChimp_Feed {
     ---------------------------------------------------------------------------------- */
 
     /**
-     * Initializes MailChimp feed.
+     * Adds MailChimp feed.
      */
-    public function initialize_mailchimp_feed() {
+    function add_feed() {
 
-        add_filter( 'the_content_feed', array( $this, 'initialize_mailchimp_feed_content' ) );
-
-        include ABSPATH . '/wp-includes/feed-rss2.php';
+        add_feed( 'mailchimp',  array( $this, 'initialize_feed' ) );
 
     }
 
     /**
-     * Initializes MailChimp feed content.
+     * Initializes MailChimp feed.
      */
-    public function initialize_mailchimp_feed_content() {
+    public function initialize_feed() {
 
-        add_filter( 'the_content_feed', array( $this, 'display_mailchimp_feed' ) );
+        add_filter( 'the_content_feed', array( $this, 'display_feed' ) );
+
+        include ABSPATH . 'wp-includes/feed-rss2.php';
 
     }
 
@@ -78,7 +78,7 @@ class WP_MailChimp_Feed {
      * @param string $content Post content.
      * @return string Modified post content, specific to the MailChimp feed.
      */
-    public function display_mailchimp_feed( $content ) {
+    public function display_feed( $content ) {
 
         $dom_util = WP_DOM_Util::get_instance();
 
