@@ -1,22 +1,22 @@
 {
-  "name": "wp-mailchimp-feed",
-  "version": "1.0.1",
-  "description": "Adds a WordPress feed for MailChimp for better content control.",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/manovotny/wp-mailchimp-feed.git"
-  },
-  "keywords": [
-    "email",
-    "mailchimp",
-    "rss",
-    "wordpress"
-  ],
-  "authors": [
-    {
-      "name": "Michael Novotny",
-      "email": "manovotny@gmail.com",
-      "homepage": "http://manovotny.com"
-    }
-  ]
+    "name": "wp-mailchimp-feed",
+    "version": "1.0.1",
+    "description": "Adds a WordPress feed for MailChimp for better content control.",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/manovotny/wp-mailchimp-feed.git"
+    },
+    "keywords": [
+        "email",
+        "mailchimp",
+        "rss",
+        "wordpress"
+    ],
+    "authors": [
+        {
+            "name": "Michael Novotny",
+            "email": "manovotny@gmail.com",
+            "homepage": "http://manovotny.com"
+        }
+    ]
 }
