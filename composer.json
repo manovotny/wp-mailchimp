@@ -4,10 +4,42 @@
     "description": "Adds a WordPress feed for MailChimp for better content control.",
     "type": "library",
     "homepage": "https://github.com/manovotny/wp-mailchimp-feed",
+    "authors": [
+        {
+            "name": "Michael Novotny",
+            "email": "manovotny@gmail.com",
+            "homepage": "http://manovotny.com",
+            "role": "Developer"
+        }
+    ],
     "license": "GPL-3.0+",
+    "keywords": [
+        "email",
+        "feed",
+        "mailchimp",
+        "rss",
+        "wordpress"
+    ],
+    "require": {
+        "manovotny/wp-dom-util": "~1.0"
+    },
     "require-dev": {
-        "manovotny/wp-dom-util": "0.3.0",
         "manovotny/wp-phpunit-helpers": "0.1.0",
         "phpunit/phpunit": "4.1.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src"
+        ],
+        "files": [
+            "wp-mailchimp-feed.php"
+        ]
+    },
+    "autoload-dev": {
+        "classmap": [
+            "vendor/phpunit",
+            "vendor/sebastian",
+            "vendor/symfony"
+        ]
     }
 }

@@ -14,7 +14,6 @@ module.exports = (function () {
             description: 'Adds a WordPress feed for MailChimp for better content control.',
             git: 'git://github.com/manovotny/wp-mailchimp-feed.git',
             name: 'WP MailChimp Feed',
-            package: 'WP_MailChimp_Feed',
             slug: 'wp-mailchimp-feed',
             url: 'https://github.com/manovotny/wp-mailchimp-feed',
             version: '1.0.1'

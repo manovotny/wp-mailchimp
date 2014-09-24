@@ -25,18 +25,16 @@ if ( ! defined( 'WPINC' ) ) {
 
 }
 
-/* Libraries
+/* Composer
 ---------------------------------------------------------------------------------- */
 
-require_once __DIR__ . '/lib/wp-dom-util/wp-dom-util.php';
+if ( file_exists( __DIR__ . '/vendor/autoload.php' ) ) {
 
-/* Classes
----------------------------------------------------------------------------------- */
-
-if ( ! class_exists( 'WP_MailChimp_Feed' ) ) {
-
-    require_once __DIR__ . '/classes/class-wp-mailchimp-feed.php';
-
-    WP_MailChimp_Feed::get_instance();
+    require_once __DIR__ . '/vendor/autoload.php';
 
 }
+
+/* Initialization
+---------------------------------------------------------------------------------- */
+
+require_once __DIR__ . '/src/initialize.php';
