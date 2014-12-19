@@ -94,6 +94,8 @@ class WP_MailChimp_Feed {
 
         }
 
+        do_action( 'wp_mailchimp_feed_modify_dom', $dom );
+
         $content = $dom_util->get_inner_html( $dom->getElementsByTagName( 'body' )->item( 0 ) );
 
         return $content;
