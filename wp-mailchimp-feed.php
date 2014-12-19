@@ -6,7 +6,7 @@
  * Plugin Name: WP MailChimp Feed
  * Plugin URI: https://github.com/manovotny/wp-mailchimp-feed
  * Description: Adds a WordPress feed for MailChimp for better content control.
- * Version: 1.1.1
+ * Version: 1.2.0
  * Author: Michael Novotny
  * Author URI: http://manovotny.com
  * License: GPL-3.0+
